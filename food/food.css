@@ -1,0 +1,225 @@
+body {
+    width: 600px;
+    background-color:  #F5D393;
+  }
+
+/* .box{
+  width: 393px;
+  height: 852px;
+  background-color: #F5DEB3;
+} */
+
+.sec3{
+  height: 250px;
+}
+
+
+
+header {
+    /* width: 393px; */
+    height: 60px;
+    width: 100%;
+    font-weight: bold;
+    background-color: #FFA152;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  }
+
+header a{
+    display: block;
+    font-size: 20px;
+    color:  #D6F593;
+    text-shadow: 1px 2px 3px #000;
+    position: relative;
+    bottom: 38px;
+    left: 120px;
+   
+}
+
+.balloon-right {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 15px 1.5em 0;
+    padding: 0 5px;
+    width: 50px;
+    height: 50px;
+    /* line-height: 20px; */
+    text-align: center;
+    color: #000;
+    font-size: 3px;
+    font-weight: normal;
+    background:#F0E68C;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    left: 30px;
+  }
+  
+  .balloon-right:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid #F0E68C;
+    z-index: 0;
+  }
+
+  .balloon-right p{
+    padding-top: 10px;
+    font-family: '游ゴシック bold', sans-serif;
+    font-weight: bold;
+  }
+  
+
+  .circle{
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color:#F0E68C;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 90px;
+  }
+
+  .circle p{
+    display: block;
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+
+  .food1{
+    width: 190px;
+    height: 230px;
+    position: relative;
+    /* top: 70px; */
+    left: 20px;
+    background-color: #FFA152;
+    background-image: linear-gradient(90deg, rgba(253, 177, 170, 1), rgba(240, 226, 226, 1));
+  }
+
+  
+
+  .food2{
+    width: 190px;
+    height: 230px;
+    /* border: 1px solid #FFA152; */
+    position: relative;
+    top: 10px;
+    left: 160px;
+    background-image: linear-gradient(90deg, rgba(168, 202, 240, 1), rgba(233, 240, 250, 1));
+    /* background-image: linear-gradient(90deg, rgba(253, 177, 170, 1), rgba(240, 226, 226, 1)); */
+  }
+
+  .food3{
+    width: 190px;
+    height: 230px;
+    /* border: 1px solid #FFA152; */
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-image: linear-gradient(90deg, rgba(138, 252, 161, 1) 32%, rgba(152, 233, 157, 1) 54%);
+    /* background-image: linear-gradient(90deg, rgba(253, 177, 170, 1), rgba(240, 226, 226, 1)); */
+  }
+
+
+
+
+  .center{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    /* width: 30%; */
+  }
+
+  .food1 span{
+    display: block;
+    font-family: '游ゴシック bold', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: deeppink;
+    text-shadow: 1px 2px 3px #000;
+    white-space: nowrap;
+    padding-top: 10px;
+    /* border-bottom: 1px solid #000; */
+  }
+ 
+  .food1 p{
+    text-align: center;
+    line-height: 20px;
+    font-size: small;
+  }
+
+
+  .food2 p{
+    text-align: center;
+    line-height: 20px;
+    font-size: small;
+  }
+
+ .food2 span{
+   display: block;
+    font-family: '游ゴシック bold', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: deepskyblue;
+    text-shadow: 1px 2px 3px #000;
+    white-space: nowrap;
+    padding-top: 10px;
+  }
+
+  .food3 p{
+    text-align: center;
+    line-height: 20px;
+    font-size: small;
+  }
+
+  .food3 span{
+    display: block;
+    font-family: '游ゴシック bold', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: darkseagreen;
+    text-shadow: 1px 2px 3px #000;
+    white-space: nowrap;
+    padding-top: 10px;
+    /* letter-spacing: 2px; */
+  }
+
+  .icon{
+    font-family: '游ゴシック bold', sans-serif;
+    font-weight: bold;
+    color: #FFA152;
+  }
+
+  #top{
+    background-color: #fff;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding-top: 30px;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    text-align: center;
+    opacity: 0.7;
+  }
+
+
+
+
+
+
+ 

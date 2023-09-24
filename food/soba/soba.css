@@ -1,0 +1,109 @@
+body{
+  width: 390px;
+  background-color: #F5DEB3;
+  
+}
+
+/* .box{
+    width: 393px;
+    height: 900px;
+    background-color: #F5DEB3;
+} */
+
+  
+header {
+      width: 393px;
+      height: 60px;
+      font-weight: bold;
+      background-color: #FFA152;
+      align-items: center;
+      position: fixed;
+}
+
+header a{
+    display: block;
+    font-size: 20px;
+    color:  #D6F593;
+    text-shadow: 1px 2px 3px #000;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+
+.food{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid #FFA152; */
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+
+.food p {
+    text-align: center;
+}
+
+.food_name{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 40px;
+    color: deepskyblue;
+    text-shadow: 1px 2px 3px #000;;
+}
+
+.image{
+    text-align: center;
+    padding-top: 10px;
+   
+  }
+
+  .detail{
+    font-size: 15px;
+    padding-top: 15px;
+    line-height: 20px;
+  }
+ 
+
+  .detail span{
+    font-weight: bold;
+  }
+
+  .carousel{
+    display: flex;
+    margin-top: 130px;
+  }
+
+  .map{
+    margin-top: 50px;
+    margin-left: 90px;
+  }
+
+
+  .map_detail p{
+    display: block;
+    text-align: center;
+    margin-right: 120px;
+    font-size: 15px;
+    padding-top: 10px;
+
+  }
+
+  .icon{
+    font-family: '游ゴシック bold', sans-serif;
+    font-weight: bold;
+    color: #FFA152;
+  }
+
+  #top{
+    background-color: #fff;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding-top: 30px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    opacity: 0.7;
+  }
